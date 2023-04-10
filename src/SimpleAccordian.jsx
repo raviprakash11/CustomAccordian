@@ -58,16 +58,8 @@ export default function SimpleAccordion() {
                 </div>
               )}
             </div>
-            {/* <button onClick={scrollToTop} className="back-to-top">
-                    <ExpandCircleDownIcon/>
-                  </button> */}
             {viewAllComponent && (
               <div>
-                {/* {showButton && (
-                  <button onClick={scrollToTop} className="back-to-top">
-                    <ExpandCircleDownIcon/>
-                  </button>
-                )} */}
                 <div style={{ display: "flex", justifyContent: "center" }}>
                   <div style={{ position: "fixed" }}>
                     {iconUPnDown ? (

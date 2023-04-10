@@ -1,8 +1,11 @@
-import SimpleAccordion from "./SimpleAccordian";
+// import SimpleAccordion from "./SimpleAccordian";
+
+import SimpleAccordian1 from "./SimpleAccordian1";
 
 function App() {
   return (
-    <SimpleAccordion/>
+    <SimpleAccordian1/>
+    // <SimpleAccordion/>
   );
 }
 
